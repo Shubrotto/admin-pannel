@@ -1,0 +1,39 @@
+.new_user {
+  flex: 4;
+}
+
+.add_product_form {
+  margin-top: 10px;
+}
+
+.add_product_item {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.add_product_item > label {
+  color: gray;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.add_product_item > input {
+  padding: 10px;
+}
+
+.add_product_item > select {
+  padding: 10px;
+}
+
+.add_product_button {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
